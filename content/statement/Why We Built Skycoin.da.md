@@ -1,5 +1,5 @@
 +++
-title = "Hvorfor Vi Byggede Skycoin"
+title = "Hvorfor Vi Skabte Skycoin"
 tags = [
     "Statement",
     "Obelisk",
@@ -14,6 +14,8 @@ categories = [
 Satoshis vision var Bitcoin som en decentraliseret digital valuta. Blockchain netværk var tilsigtet at skulle demokratisere økonomi, eliminere store firmaers kontrol og sprede magten blandt brugerne. Bitcoin og dens relaterede valutaer er dog blevet centraliseret som følge af deres afhængighed af Proof of Work (PoW) og Proof of Stake (PoS) algoritmerne, såvel som behovet for mining for at skabe nye mønter. Denne centralisering har ført til et nederlag for det oprindelige formål med digitale valutaer.
 
 We created the Skycoin blockchain to correct these flaws. The Skycoin blockchain uses a novel consensus algorithm to replace PoW and PoS. It also fixes security problems associated with other blockchain networks and decouples coin creation from the mining process. The result is a fully decentralized cryptocurrency that fulfills Satoshi’s original vision.
+
+Vi skabte Skycoin blockchainen for at rette disse problemer. Skycoin blockchainen bruger en ny konsensus algoritme der erstatter PoW og PoS. 
 
 The Skycoin blockchain does not use mining, so user power cannot be concentrated in a few large mining pools as it is with Bitcoin today. Coin creation doesn’t give certain users disproportionate control over the network. The supply of Skycoin is fixed. Skycoin transactions occur in seconds and are more secure. With Skycoin, we’ve created an immutable cryptocurrency that functions as digital property, rather than a political tool for amassing control over networks.
 
