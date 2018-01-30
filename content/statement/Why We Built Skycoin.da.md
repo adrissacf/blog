@@ -37,13 +37,15 @@ Med PoS har brugerne stemmekraft på netværket der tilsvarer deres beholdning a
 
 ## Obelisk: Nøglen til Decentralisering
 
-It’s clear that both PoW and PoS algorithms are self-sabotaging. These algorithms undermine the idea of decentralized digital currency, since they result in the creation of new central authorities. They concentrate network power in the hands of just a few individuals, preventing users from reaping the benefits of a decentralized network. In fact, PoW and PoS create a system that’s no better than the traditional central banking system cryptocurrency originally sought to replace.
+Det er klart at både PoW og PoS algoritmerne saboterer deres eget formål. Algoritmerne underminerer ideen med en decentraliseret digital valuta, fordi de skaber nye centraliserede enheder. De samler netværkets kontrol hos nogle få individer, hvilket forhindrer brugerne i at udnytte fordelene ved et decentraliseret netværk. Rent faktisk skaber PoW og PoW ikke systemer der er bedre end de traditionelle central banks systemer, som kryptovaluta oprindeligt blev skabt til at afløse.
 
-At Skycoin, we want to bring users what they asked for: a true, decentralized network without central authority. To accomplish this task, we went beyond PoW and PoS to create a wholly new decentralized algorithm that reconfigures the inner workings of blockchain. Our distributed consensus algorithm, Obelisk, succeeds in delivering just such a network.
+Hos Skycoin vil vi give brugerne hvad der oprindeligt søgte, nemlig et sandt decentraliseret netværk uden nogen form for central styring. For at opnå dette mål er vi gået skridtet længere end PoW og PoS, for at skabe en helt ny decentraliserings algoritme, der ændrer de grundlæggende byggesten for blockchainen. Vores distribuerede konsensus algoritme, Obelisk, leverer præcis sådan et netværk.
 
-Obelisk is different from both PoW and PoS because it functions based on distributed influence, also known as a “web of trust.” In this system, each node subscribes to a list of other nodes. The density of a node’s network determines its influence. Nodes have personal blockchains that broadcast and record all actions publicly. Because the node’s communications are public and transparent, the community can verify that nodes are operating fairly. 
+Obelisk adskiller sig fra PoW og PoS fordi den er baseret på distribueret inflydelse, også kendt som et "net af tillid". I dette system abbonerer hver node på en række andre noder. Størrelsen på en nodes netværk afgør hvor stor inflydelse den har. Noderne har deres egne blockchains der publicerer og gemmer alle handlinger offentligt. Fordi en nodes kommunikation er offentlig og gennemsigtig, kan netværket verificere at noden ikke er ondsindet.
 
 If a node fails to comply with community standards, its actions will be visible in the public record. The network can then sever connections with that node, decreasing its influence over the network. In this way, our web of trust system weeds out malicious nodes and rebalances power according to the collective will of the community. The result is a smaller core of trusted nodes that make network decisions through verified relationships. 
+
+Hvis en node ikke overholder netværkets standarder, vil dens handlinger være synlige i det offentlige register.
 
 The Skycoin blockchain lets the community audit nodes and hold them accountable. This creates a transparent consensus that allows for collective decision-making and true decentralization of power. By eliminating PoW/PoS issues, Skycoin delivers a digital currency that provides all the benefits of a democratic network.
 
