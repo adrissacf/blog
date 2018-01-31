@@ -16,87 +16,60 @@ categories = [
 
 > Citat fra: **iamback** 16. februar, 2015, 09:28:38
 
-> En ikke-PoW konsensus vil være dødsdømt fra start, fordi der ikke er tid nok til at løse problemerne og stole på løsningen før den globale økonomi kollapser i 2016. F.eks. det selviske mining angreb blev ikke opdaget (eller lad os sige bevist og anerkendt) før flere år efter Satoshi publiserede PoW. Derfor vil den seriøse handelsplads ikke stole på en ny ikke-PoW konsensus. I stedet har jeg designet et PoW system der løser mange af de problemer der plager Bitcoin, inklusiv ASIC økonomi. Der er hints i mit linkede indlæg ovenfor.
+> En ikke-PoW konsensus vil være dødsdømt fra start, fordi der ikke er tid nok til at løse problemerne og stole på løsningen før den globale økonomi kollapser i 2016. F.eks. det selviske mining angreb blev ikke opdaget (eller lad os sige bevist og anerkendt) før flere år efter Satoshi publicerede PoW. Derfor vil den seriøse handelsplads ikke stole på en ny ikke-PoW konsensus. I stedet har jeg designet et PoW system der løser mange af de problemer der plager Bitcoin, inklusiv ASIC økonomi. Der er hints i mit linkede indlæg ovenfor.
 
 > Desuden har jeg en matematisk fornemmelse der siger mig, at for at undgå 51% angreb vil der altid opstå et andet sikkerhedshul.
 
-Med Skycoin er 51% angreb ligegyldige. Netværket kan blive angrebet af tyve 51% angreb om dagen, og stort alle ville være ligeglade.
+Med Skycoin er 51% angreb ligegyldige. Netværket kan blive angrebet af tyve 51% angreb om dagen, og stort set alle vil være ligeglade.
 
-Skycoin har anderledes strengere matematiske egenskaber end Bitcoin. Hvis du handler coins frem of tilbage mellem fem personer i et lukket netværk, vil 51% angrebet ikke påvirke nogle af dem. Du skal bruge en private key fra en i handelskæden for at skade nogen i et Skycoin 51% angreb. Der er ikke nogen transaktions bøjelighed i Skycoin. Næsten alle vil have samme outputs, samme balancer og samme transkationshistorik på den originale kæde og den forkede kæde, pånær angriberen og folk der har handlet med denne. Hvis der er en fork af kæden, vil den bare kopiere transaktioner over fra de andre kæder.
+Skycoin har anderledes strengere matematiske egenskaber end Bitcoin. Hvis du handler coins frem of tilbage mellem fem personer i et lukket netværk, vil 51% angrebet ikke påvirke nogle af dem. Du skal bruge en private key fra en i handelskæden for at skade nogen i et Skycoin 51% angreb. Der er ikke nogen transaktions bøjelighed i Skycoin. Næsten alle vil have samme outputs, samme balancer og samme transaktionshistorik på den originale kæde og den fork'ede kæde, på nær angriberen og folk der har handlet med denne. Hvis der er en fork af kæden, vil den bare kopiere transaktioner over fra de andre kæder.
 
-51% angrebet vil kun påvirke folk der day trader med skumle typer og gambling sider. Det vil ikke påvirker handels transaktioner ret meget. Hvis en valutabørs følger de bedste sikkerhedsstandarder og holder brugernes wallets adskilt, vil det værste angreb være forholdvis mildt.
+51% angrebet vil kun påvirke folk der day trader med skumle typer og gambling sider. Det vil ikke påvirke handels transaktioner ret meget. Hvis en valutabørs følger de bedste sikkerhedsstandarder og holder brugernes wallets adskilt, vil det værste angreb være forholdsvis mildt.
 
-Bitcoin flytter 100 millioner dollar om dagen i transaktions volumen. Den samlede mængde i Bitcoin er omkring 200.000 Bitcoins. Bitcoin har transaktions bøjelighed, hvilket betyder at hvis nogen laver et 51% angreb og ruller transaktionerne fra den sidste time tilbage, vil omkring 4 millioner dollar og 10.000 Bitcoins i transaktions balancer blive ødelagte. En tilbagerulning for de sidste 24 timer kan lave skade for 100 millioner dollar og op til 200.000 Bitcoins. En angriber kan rulle enhver transaktion tilbage.
+Bitcoin flytter 100 millioner dollar om dagen i transaktions volumen. Den mængde i Bitcoin er omkring 200.000 Bitcoins. Bitcoin har transaktions bøjelighed, hvilket betyder at hvis nogen laver et 51% angreb og ruller transaktionerne fra den sidste time tilbage, vil omkring 4 millioner dollar og 10.000 Bitcoins i transaktions balancer blive ødelagte. En tilbagerulning for de sidste 24 timer kan lave skade for 100 millioner dollar og op til 200.000 Bitcoins. En angriber kan rulle enhver transaktion tilbage.
 
-In Skycoin, they cannot affect or modify a transaction chain without knowing a
-private key for an address used in that chain of transactions. So if five
-banks are just trading back and forth between each other for settlement and
-they all have good wallet security, the 51% attack would not even be noticed.
-Their balances are the same. That is assuming, the 51% attack is even
-mathematically possible, that someone bothers expending the resources to
-attempt it and that it succeeds.
+Med Skycoin kan angribere ikke påvirke eller ændre en transaktionskæde, uden at kende en private key for en adresse der er brugt i kæden af transaktioner. Så hvis fem banker handler frem og tilbage, og de alle har optimal wallet sikkerhed, vil de ikke engang opfatte 51% angrebet. Deres kontobalancer vil være de samme. Og det er med den hypotese, at 51% angreb overhoved er matematisk mulige, og der er nogen der gider ulejlige sig med at bruge så mange resurser på det og det tilmed lykkes.
 
-If someone manages to 51% attack Skycoin (which may be possible, but is
-mathematically unlikely) merchants will sing and dance with great rejoicement
-because losses will be so much less than for a Visa charge back. Many
-merchants sell laptops and make less than 5% margin on each laptop. Someone
-claims they didnt get the laptop and the merchant loses $1000, does not get
-the laptop back AND has to pay Visa an $80 fee. The company has to sell 25
-laptops to make back the cost of the loss of a single fraud. If someone steals
-a credit card and buys a laptop with it, Visa does not take the loss, Visa
-pushes the loss on to the merchant.
+Hvis nogle lykkes med at lave et 51% angreb på Skycoin (hvilket måske er muligt, men matematisk usandsynligt) vil forretningsejere stadig juble af glæde, for deres tab vil være meget mindre end hvis Visa tilbagekalder en transaktion de har modtaget. Mange butikker sælger bærbare computere med en profitmargin på mindre end 5%. Hvis en kunde hævder ikke at have modtaget computeren, vil Visa føre pengene tilbage til kunden, butikken får ikke computeren tilbage, og butikken skal betale en bøde på 500 kr. til Visa. Butikken skal sælge 25 computere for at tjene omkostningerne hjem for en enkelt svindler. Hvis en person stjæler et Visa kort og køber en bærbar med det, dækker Visa ikke omkostningerne, de bliver ført videre til butikken.
 
-The Skycoin consensus algorithm and the ledger are separate. The consensus
-system is modular and can be swapped out. If there is a better algorithm five
-years from now, we can just swap out the consensus for the new one. The ledger
-and coin balances will be completely unchanged.
+Skycoins konsensus algoritme og hovedbogen er adskilte. Konsensus systemet er et selvstændigt modul, som kan udskiftes efter behov. Hvis der om fem år kommer en bedre algoritme, kan vi bare skifte til den nye. Hovedbogen og brugernes kontobalancer vil være helt uændrede. 
 
 Skycoin:
 
-- fixes existing problems with Bitcoin
-- future-proofs Bitcoin
-- eliminates the death spiral conditions that Bitcoin has engineered in
+- Fixer eksisterende problemer med Bitcoin.
+- Fremtidssikrer Bitcoin.
+- Eliminerer den dødsspiral som Bitcoin har sat sig selv i.
 
-It is 100% true. There are severe tradeoffs. For example, faster
-consensus times for Skycoin-type relational consensus means that a smaller
-number of nodes are required to DDoS the network. However, people can react
-and remove the nodes from their trust lists.
+Det er 100% sandt. Der er dog alvorlige kompromiser. For eksempel, hurtigere konsensus tider for Skycoin-agtig relationel konsensus betyder der skal færre noder til at udføre et DDoS angreb på netværket. Til gengæld kan folk reagere ved at fjerne noderne fra deres lister over sikre noder.
 
-There will be issues and they will need to be worked out.
+Der vil være problemer der skal løses.
 
-## Skycoin Transaction Structure
+## Skycoins Transaktions Struktur
 
 https://github.com/skycoin/skycoin/blob/master/src/coin/transactions.go
 
-A Skycoin transaction is:
+En Skycoin transaktion er:
 
-1) A list of output hashes, being spent
-2) A list of signatures authorizing the outputs to be spent (signature of hash
-   of inner part of transaction)
-3) A list of outputs to be created
+1) En liste af output hashes der bliver brugt
+2) En liste af signaturer der sikrer de outputs der bliver brugt (signatur af hashen af den indre part af transaktionen)
+3) En liste af outputs der skal laves
 
-Coins cannot be created or destroyed. The number of coins in has to equal
-number of coins out. Transaction fees are in "coinhours".
+Coins kan ikke blive skabt eller destrueret. Antallet af indgående coins skal svare til det udgående antal. Transaktions gebyrer bliver betalt i "coin timer".
 
-## Skycoin supports Coinjoin natively
+## Skycoin er født med Coinjoin support
 
-There is no difference between normal and coinjoin transactions.
+Der er ikke nogen forskel på normale og coinjoin transaktioner.
 
-- Two people choose the outputs they want to spend, the outputs they want to
-  create, send to remote server.
-- The server creates a transaction and scrambles orders of outputs in/out.
-  Then sends it to each person
-- Each person sends the signatures for their outputs to the server
-- The coinjoin server injects the transaction into the network
+- To personer vælger det output de vil bruge, og sender disse outputs til en remote server.
+- Serveren laver en transaktion og krypterer rækkefølgen af outputs ind/ud, og sender til hver person.
+- Hver person sender signaturen for deres outputs til serveren.
+- Coinjoin serveren indsætter transaktionen i netværket.
 
-- The coinjoin server cannot steal the coins
-- Only the coinjoin server knows how many people are involved (1, 2, 4?)
-- Only the coinjoin server knows which outptus belong to who
-- There is no difference between coinjoin and normal transactions (they look
-  exactly the same)
+- Coinjoin serveren kan ikke stjæle coins.
+- Kun coinjoin serveren ved hvor mange personer der er involverede (1, 2, 4?).
+- Kun coinjoin serveren ved hvem hvilke outputs tilhører.
+- Der er ingen forskel på en coinjoin og en normal transaktion (de ser helt ens ud).
 
-The signature in the `i`th slot is for the address owning the `i`th output. The
-inner hash of the transaction is hashed with hash of output being spent, then
-this is signed with the private key owning the output.
+Signaturen i den n'te position tilhører adressen der ejer det n'te output. Den indre hash af transaktionen er hashed med hashen af det output der bliver brugt, og er derefter signeret med private key'en der ejer outputtet.
 
-So it is very simple compared to other coinjoin systems.
+Det er derfor rigtig simpelt ift. andre coinjoin systemer.
